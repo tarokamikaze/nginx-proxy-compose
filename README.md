@@ -23,7 +23,7 @@ services:
       VIRTUAL_HOST: test.local # host名
       HTTPS_METHOD: noredirect # http/https 両方使いたい場合。ssl専用、またはhttpならこの項目は不要
     volumes:
-      - ./webroot:/var/www/ht
+      - ./webroot:/var/www/html
 networks: #nginx-proxy と疎通するためのおまじない
   default:
     external:
