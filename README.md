@@ -3,6 +3,9 @@
 nginx-proxy ひとつで、多数のコンテナをハンドルするための設定です。  
 ローカル環境や、テストサーバーなどにどうぞ。
 
+## Config
+[nginx-proxy 本家](https://github.com/jwilder/nginx-proxy) をご覧ください。
+
 ## SetUp
 
 ```
