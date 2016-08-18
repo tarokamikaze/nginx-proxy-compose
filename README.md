@@ -30,7 +30,7 @@ services:
 networks: #nginx-proxy と疎通するためのおまじない
   default:
     external:
-      name: nginxproxy_default
+      name: nginxproxycompose_default
 ```
 
 SSLを使いたい場合、path/to/nginx-proxy-compose/certs/ 以下に、${VIRTUAL_HOST}.crt, ${VIRTUAL_HOST}.key を配置します。  
